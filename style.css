@@ -20,11 +20,14 @@ section {
 }
 
 .main-content {
-  margin: 0px 100px 0 100px;
+  max-width: 1850px;
+  width: 100%;
+  margin: 0 auto;
+  padding-inline: 20px;
   display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .main-title {
@@ -171,6 +174,7 @@ section {
   row-gap: 10px;
   font-size: 16px;
   line-height: 1.4;
+  text-decoration: none;
 }
 
 .contact-body a {
